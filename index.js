@@ -1,12 +1,12 @@
-import express from "express";
-import path from "path";
-import mongoose from "mongoose";
-import cookieParser from "cookie-parser";
-import jwt from "jsonwebtoken";
-import bcrypt from "bcrypt";
+const express = require("express");
+const path = require("path");
+const mongoose = require("mongoose");
+const cookieParser = require("cookie-parser");
+const jwt = require("jsonwebtoken");
+const bcrypt = require("bcrypt");
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017", {
+  .connect("mongodb://localhost:27017", {
     dbName: "backend",
   })
   .then(() => console.log("Database Connected"))
@@ -29,6 +29,7 @@ app.use(cookieParser());
 
 // Setting up View Engine
 app.set("view engine", "ejs");
+
 
 const isAuthenticated = async (req, res, next) => {
   const { token } = req.cookies;
