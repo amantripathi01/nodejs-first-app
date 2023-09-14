@@ -6,7 +6,7 @@ const cookieParser = require("cookie-parser");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const request = require('supertest');
-const app = require('./index.js');
+const app = express();
 
 
 

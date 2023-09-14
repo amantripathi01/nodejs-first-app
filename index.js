@@ -6,7 +6,7 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 
 mongoose
-  .connect("mongodb://localhost:27017", {
+  .connect("mongodb://127.0.0.1:27017/backend", {
     dbName: "backend",
   })
   .then(() => console.log("Database Connected"))
@@ -19,9 +19,8 @@ const userSchema = new mongoose.Schema({
 });
 
 const User = mongoose.model("User", userSchema);
-
+const port =4201;
 const app = express();
-
 // Using Middlewares
 app.use(express.static(path.join(path.resolve(), "public")));
 app.use(express.urlencoded({ extended: true }));
@@ -101,6 +100,8 @@ app.post("/register", async (req, res) => {
   res.redirect("/");
 });
 
+
+
 app.get("/logout", (req, res) => {
   res.cookie("token", null, {
     httpOnly: true,
@@ -109,6 +110,12 @@ app.get("/logout", (req, res) => {
   res.redirect("/");
 });
 
-app.listen(5000, () => {
-  console.log("Server is working");
+
+
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
+
+app.listen(port, () => {
+  console.log(`Server is listening at http://localhost:${port}`);
 });
