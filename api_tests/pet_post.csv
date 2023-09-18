@@ -1,0 +1,11 @@
+id,category,name,photoUrls,tags,status
+1,Animals,Fluffy,http://fluffyphotos.com/1,Dog,Available
+2,Electronics,Smartphone,http://smartphonephotos.com/2,Gadget,Sold
+3,Books,The Great Gatsby,http://bookphotos.com/3,Novel,Available
+4,Cars,Tesla Model 3,http://carphotos.com/4,Electric,Unavailable
+5,Furniture,Oak Table,http://furniturephotos.com/5,Wooden,Available
+6,Music,Beatles Album,http://musicphotos.com/6,Vinyl,Sold
+7,Fashion,Leather Jacket,http://fashionphotos.com/7,Leather,Available
+8,Games,Chess Set,http://gamephotos.com/8,Board Game,Unavailable
+9,Sports,Baseball Glove,http://sportphotos.com/9,Leather,Available
+10,Food,Apple,http://foodphotos.com/10,Fruit,Available
