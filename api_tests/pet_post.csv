@@ -1,0 +1,11 @@
+id,category,name,photoUrls,tags,status
+1,Electronics,John Doe,https://dummyimage.com/600x400/000/fff,tag1|tag2|tag3,Available
+2,Fashion,Jane Doe,https://dummyimage.com/600x400/111/fff,tag1|tag2|tag3,Sold Out
+3,Books,James Smith,https://dummyimage.com/600x400/222/fff,tag1|tag2|tag3,Available
+4,Home Decor,Emily Johnson,https://dummyimage.com/600x400/333/fff,tag1|tag2|tag3,Sold Out
+5,Electronics,Michael Brown,https://dummyimage.com/600x400/444/fff,tag1|tag2|tag3,Available
+6,Fashion,Linda Davis,https://dummyimage.com/600x400/555/fff,tag1|tag2|tag3,Sold Out
+7,Books,Robert Miller,https://dummyimage.com/600x400/666/fff,tag1|tag2|tag3,Available
+8,Home Decor,Mary Wilson,https://dummyimage.com/600x400/777/fff,tag1|tag2|tag3,Sold Out
+9,Electronics,William Moore,https://dummyimage.com/600x400/888/fff,tag1|tag2|tag3,Available
+10,Fashion,Patricia Taylor,https://dummyimage.com/600x400/999/fff,tag1|tag2|tag3,Sold Out
