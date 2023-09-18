@@ -1,0 +1,6 @@
+"accountCode","eventCode","eventName","eventStatus","notes","startDate","endDate","timezone"
+"AC1234","EC5678","Music Festival","Active","First time event","2022-01-01","2022-01-03","EST"
+"AC4321","EC8765","Art Exhibition","Completed","Annual event","2021-11-11","2021-11-13","PST"
+"AC6789","EC9876","Tech Conference","Upcoming","Highly anticipated","2022-05-15","2022-05-18","CST"
+"AC8765","EC5674","Food Fair","Cancelled","Due to weather conditions","2022-03-20","2022-03-22","MST"
+"AC3456","EC6543","Book Launch","Active","New author debut","2022-02-10","2022-02-12","EST"
